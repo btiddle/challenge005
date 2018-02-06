@@ -16,9 +16,7 @@ Readme file for PrimeTable
    cd to directory "../challenge005/dist/"
    java -cp primetable.jar org.testng.TestNG testng.xml
 
-5. To review additional test result  details:
+5. To review additional test result details:
 
    cd to directory "../challenge005/dist/test-output"
    View index.html in browser.
-   
-
