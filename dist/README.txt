@@ -1,19 +1,24 @@
 Readme file for PrimeTable
 
-1. Can clone entire repository or just copy the contents
-   of the dist/ directory locally.
+1. Installation of Java 8 is a prerequisite.
 
-2. To run program at command line:
+2. Clone the repository btiddle/challenge005
 
-   cd to location of "diet/" directory
+   git clone https://github.com/btiddle/challenge005.git
+
+3. To run program at command line:
+
+   cd to directory "../challenge005/dist/"
    java -cp primetable.jar com.btiddle.PrintTable
 
-3. To run tests at command line:
+4. To run tests at command line:
 
-   cd to location of "diet/" directory
+   cd to directory "../challenge005/dist/"
    java -cp primetable.jar org.testng.TestNG testng.xml
 
-4. To review details of test results, view index.html file in browser at:
+5. To review additional test result  details:
 
-   dist/test-output/index.html
+   cd to directory "../challenge005/dist/test-output"
+   View index.html in browser.
+   
 
