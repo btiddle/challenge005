@@ -1,0 +1,23 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Print Table Suite" verbose="2" >
+
+    <test name="Get Input Tests">
+        <classes>
+            <class name="com.btiddle.getInputTests" />
+        </classes>
+    </test>
+
+    <test name="Get Primes Tests">
+        <classes>
+            <class name="com.btiddle.getPrimesTests" />
+        </classes>
+    </test>
+
+    <test name="Print Table Tests">
+        <classes>
+            <class name="com.btiddle.printTableTests" />
+        </classes>
+    </test>
+
+</suite>

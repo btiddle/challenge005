@@ -1,0 +1,35 @@
+
+# sbt files
+project/project
+project/target
+target/
+out/
+
+# ignore log files
+logs/
+journal/
+*.log
+
+# intellij idea files
+.idea/
+*.iml
+*.sc
+
+# emacs
+.ensime*
+TAGS
+*~
+\#*\#
+.\#*
+
+# developer specific files
+.java-version
+
+# vim temporary files
+*.sw?
+
+# MacOS files
+.DS_Store
+
+# Vagrant files
+.vagrant/
